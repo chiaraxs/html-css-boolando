@@ -21,6 +21,29 @@
     
 }
 
+
+.card:hover img {
+    display: block;
+}
+
+
+.card img {
+    width: 100%;
+}
+
+
+.img-off{
+    display: none;
+}
+
+.img:hover .img-on{
+    display: none;
+}
+
+.img:hover .img-off{
+    display: inline-block;
+}
+
 /* STYLE TESTO */
 
 .item{
@@ -41,7 +64,9 @@
 .discount {
     position: absolute;
     display: inline;
-    top: 50px;
+    width: auto;
+    bottom: -90px;
+    left: 0px;
     background-color: red;
     color: white;
     font-size: 10px;
@@ -52,7 +77,8 @@
 .green {
     position: absolute;
     display: inline;
-    top: 50px;
+    width: auto;
+    bottom: -90px;
     left: 30px;
     background-color: green;
     color: white;
@@ -65,7 +91,7 @@
 .heart{
     position: absolute;
     width: 20px;
-    top: 0;
+    top: 50px;
     right: 0;
     background-color: white;
     font-size: 10px;
@@ -75,48 +101,4 @@
 }
 
 /* STYLE TESTO */
-
-.card:hover {
-    background: #fff;
-}
-
-.card:hover img {
-    display: block;
-}
-
-.row-1 > img-1:hover { 
-    background-image: url(../img/1.webp);
-    
-}
-
-.row-1 > img-2:hover {
-    background-image: url(../img/2.webp);
-}
-
-.row-1 > img-3:hover{
-    background-image: url(../img/3.webp);
-}
-
-.row-2 > img-4:hover{
-    background-image: url(../img/4.webp);
-}
-
-.row-2 > img-5:hover{
-    background-image: url(../img/5.webp);
-}
-
-.row-2 > img-6:hover{
-    background-image: url(../img/6.webp);
-}
-
-
-.card img {
-    width: 100%;
-}
-
-
-.row-1{
-    display: inline-block;
-    position: relative;
-}
 
