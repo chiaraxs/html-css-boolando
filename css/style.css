@@ -21,6 +21,9 @@
     
 }
 
+.item{
+    display: inline-block;
+}
 
 .card:hover img {
     display: block;
