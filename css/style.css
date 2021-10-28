@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.card {
+    display: inline-block;
+    width: 25%;
+    margin: 0 15px;
+    height: 300px;
+    background-size: 100%;
+    padding: 50px 0;
+    position: relative;
+}
+
+.row-1 > img-1{
+    background-image: url(../img/1.webp);
+}
+
+.row-1 > img-2{
+    background-image: url(../img/2.webp);
+}
+
+.row-1 > img-3{
+    background-image: url(../img/3.webp);
+}
+
+.row-2 > img-4{
+    background-image: url(../img/4.webp);
+}
+
+.row-2 > img-5{
+    background-image: url(../img/5.webp);
+}
+
+.row-2 > img-6{
+    background-image: url(../img/6.webp);
+}
+
+
+.card img {
+    width: 100%;
+}
+
+
+
+.row-1{
+    display: inline-block;
+    position: relative;
+}
+
+/* STYLE TESTO */
+
+.item{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+/* STYLE TESTO */
+
+.discount {
+    position: absolute;
+    display: inline;
+    top: 20%;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.green {
+    position: absolute;
+    display: inline;
+    top: 20%;
+    left: 30px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.heart{
+    position: absolute;
+    display: inline;
+    top: 30px;
+    left: 200px;
+    background-color: white;
+    
+    font-size: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
