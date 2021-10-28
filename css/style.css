@@ -7,53 +7,18 @@
 .container {
     width: 1000px;
     margin: 0 auto;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 
 .card {
     display: inline-block;
+    position: relative;
     width: 25%;
-    margin: 0 15px;
     height: 300px;
     background-size: 100%;
     padding: 50px 0;
-    position: relative;
-}
-
-.row-1 > img-1{
-    background-image: url(../img/1.webp);
-}
-
-.row-1 > img-2{
-    background-image: url(../img/2.webp);
-}
-
-.row-1 > img-3{
-    background-image: url(../img/3.webp);
-}
-
-.row-2 > img-4{
-    background-image: url(../img/4.webp);
-}
-
-.row-2 > img-5{
-    background-image: url(../img/5.webp);
-}
-
-.row-2 > img-6{
-    background-image: url(../img/6.webp);
-}
-
-
-.card img {
-    width: 100%;
-}
-
-
-
-.row-1{
-    display: inline-block;
-    position: relative;
+    
 }
 
 /* STYLE TESTO */
@@ -72,12 +37,11 @@
     text-decoration: line-through;
 }
 
-/* STYLE TESTO */
 
 .discount {
     position: absolute;
     display: inline;
-    top: 20%;
+    top: 50px;
     background-color: red;
     color: white;
     font-size: 10px;
@@ -88,23 +52,71 @@
 .green {
     position: absolute;
     display: inline;
-    top: 20%;
+    top: 50px;
     left: 30px;
     background-color: green;
     color: white;
     font-size: 10px;
     padding: 5px;
     font-weight: bold;
+    margin-left: 5px;
 }
 
 .heart{
     position: absolute;
-    display: inline;
-    top: 30px;
-    left: 200px;
+    width: 20px;
+    top: 0;
+    right: 0;
     background-color: white;
-    
     font-size: 10px;
     padding: 5px;
+    margin-top: 10px;
     font-weight: bold;
 }
+
+/* STYLE TESTO */
+
+.card:hover {
+    background: #fff;
+}
+
+.card:hover img {
+    display: block;
+}
+
+.row-1 > img-1:hover { 
+    background-image: url(../img/1.webp);
+    
+}
+
+.row-1 > img-2:hover {
+    background-image: url(../img/2.webp);
+}
+
+.row-1 > img-3:hover{
+    background-image: url(../img/3.webp);
+}
+
+.row-2 > img-4:hover{
+    background-image: url(../img/4.webp);
+}
+
+.row-2 > img-5:hover{
+    background-image: url(../img/5.webp);
+}
+
+.row-2 > img-6:hover{
+    background-image: url(../img/6.webp);
+}
+
+
+.card img {
+    width: 100%;
+}
+
+
+.row-1{
+    display: inline-block;
+    position: relative;
+}
+
