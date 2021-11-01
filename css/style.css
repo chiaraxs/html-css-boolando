@@ -5,33 +5,36 @@
 }
 
 .container {
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 
-.card {
+.row-1, .row-2{
     display: inline-block;
+    width: 300px;
     position: relative;
-    width: 25%;
-    height: 300px;
-    background-size: 100%;
-    padding: 50px 0;
-    
+    height: 400px;
+    text-align: left;
 }
 
 .item{
-    display: inline-block;
+    position: relative;
 }
 
-.card:hover img {
-    display: block;
-}
+
+/* START IMG HOVER */
 
 
 .card img {
     width: 100%;
+}
+
+.img-on {
+    display: block;
 }
 
 
@@ -39,17 +42,19 @@
     display: none;
 }
 
-.img:hover .img-on{
-    display: none;
+.item:hover .img-off {
+    display: block;
 }
 
-.img:hover .img-off{
-    display: inline-block;
+.item:hover .img-on{
+    display: none;
 }
+  
+/* END IMG HOVER*/
 
 /* STYLE TESTO */
 
-.item{
+.info{
     font-size: 15px;
     font-weight: bold;
 }
@@ -59,7 +64,7 @@
     font-weight: bold;
 }
 
-.strike{
+.price-stroke{
     text-decoration: line-through;
 }
 
@@ -68,8 +73,8 @@
     position: absolute;
     display: inline;
     width: auto;
-    bottom: -90px;
-    left: 0px;
+    bottom: 80px;
+    left: 0;
     background-color: red;
     color: white;
     font-size: 10px;
@@ -77,11 +82,11 @@
     font-weight: bold;
 }
 
-.green {
+.eco {
     position: absolute;
     display: inline;
     width: auto;
-    bottom: -90px;
+    bottom: 80px;
     left: 30px;
     background-color: green;
     color: white;
@@ -94,12 +99,12 @@
 .heart{
     position: absolute;
     width: 20px;
-    top: 50px;
+    top: 10px;
+    margin-top: 10px;
     right: 0;
     background-color: white;
     font-size: 10px;
     padding: 5px;
-    margin-top: 10px;
     font-weight: bold;
 }
 
